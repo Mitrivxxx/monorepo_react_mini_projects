@@ -1,0 +1,61 @@
+
+# Monorepo-friendly .gitignore for Bun + React projects
+# Keep lockfiles (bun.lock / bun.lockb) committed for reproducible installs.
+
+# Node modules
+node_modules/
+
+# Bun cache (optional local cache directories)
+# Bun usually stores cache in global directories; ignore any local .bun/ if present
+.bun/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+*.tgz
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+logs/
+
+# Environment files (do not commit secrets). Keep .env.example if you have one.
+.env
+.env.*.local
+!.env.example
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Tool caches
+.cache/
+.parcel-cache/
+.turbo/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime*
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Misc
+report.[0-9_]*.json
+
+# Static asset backups or editor backups
+**/*.backup.*
+**/*.back.*
+
+# If you use CRA, Next, or similar frameworks, add their outputs as needed
+# For example Next.js: .next/
+# For Vite: node_modules/.vite/
+
+
+
