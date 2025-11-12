@@ -1,5 +1,5 @@
 import React from "react";
-import { BoxConfig } from "../data/box";
+import type{ BoxConfig } from "../data/box";
 
 
 const BoxItem: React.FC<{ box: BoxConfig }> = ({ box }) => {
