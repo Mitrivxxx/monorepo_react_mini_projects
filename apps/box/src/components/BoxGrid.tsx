@@ -1,8 +1,9 @@
 import BoxItem from "./BoxItem";
 import type { BoxConfig } from "../data/box";
+import {boxes} from "../data/box"
 
 
-export const BoxGrid: React.FC<{ boxes: BoxConfig[] }> = ({ boxes }) => {
+export const BoxGrid: React.FC<{  }> = () => {
   return (
     <div
       style={{
