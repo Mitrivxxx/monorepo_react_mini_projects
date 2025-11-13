@@ -8,8 +8,8 @@ export const BoxGrid: React.FC<{  }> = () => {
     <div
       style={{
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(30px, 1fr))",
-        gap: "10px",
+        gridTemplateColumns: "repeat(3, 150px)",
+        gap: "10px"
       }}
     >
       {boxes.map((box) => (
